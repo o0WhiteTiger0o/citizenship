@@ -1,21 +1,8 @@
-/*
----------------------------DATA-------------------
-*/
-const iframe_Link = {
-    page1 :'name'
-}
-/* end data*/
-
-const getSection = document.querySelector('section');
-
-function create_page_func(src){
-    const create_div = document.createElement('div');
-    const create_h1 = document.createElement('h1');
-    getSection.appendChild(create_div);
-    getSection.appendChild(create_h1);
-    const add_text = create_h1.textContent(src);
-    return add_text;
-
-}
-
-create_page_func('ta la zai');
+  function hide_show() {
+    const getPanel = document.getElementById("panel");
+    if (getPanel.style.display === "none") {
+        getPanel.style.display = "block";
+    } else {
+        getPanel.style.display = "none";
+    }
+  }
