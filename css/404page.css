@@ -54,7 +54,7 @@ table {
 }
 
 body{
-    background-image: url('https://i.pinimg.com/originals/f0/72/4c/f0724cabbc8ea4d9b502d8e015081a69.jpg');
+    background-image: url('https://wpdaddy.com/wp-content/uploads/2017/04/Lost-in-Space-Error-404.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -113,46 +113,4 @@ section{
     font-size: 30px;
 }
 
-iframe{
-    box-shadow: 10px 10px 5px lightblue;
-}
-
-.hidden{
-    display: none;
-}
-
-button{
-    width: 150px;
-    height: 50px;
-    font-size: 20px;
-    border-radius: 25px;
-}
-
-.button_group{
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.horizontal_Bar{
-    font-size: 40px;
-    color: white;
-    text-shadow: 4px 4px 10px black, 0 0 25px blue, 0 0 5px darkblue;
-}
-
-
-
-  #panel, #flip {
-    padding: 5px;
-    text-align: center;
-    background-color: #e5eecc;
-    color:black;
-    border: solid 1px #c3c3c3;
-    margin:2%;
-  }
-  
-  #panel {
-    padding: 50px;
-    display: none;
-  }
 
