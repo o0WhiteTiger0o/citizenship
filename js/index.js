@@ -6,3 +6,6 @@
         getPanel.style.display = "none";
     }
   }
+
+
+  document.querySelector('audio').play();
