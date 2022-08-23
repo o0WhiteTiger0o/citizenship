@@ -199,10 +199,12 @@ button{
     }
   }
 
-  @media (max-width){
+  @media (max-width : 1000px){
     iframe{
       width: max-content;
       height: max-content;
     }
     
   }
+ 
+ 
