@@ -198,3 +198,11 @@ button{
       text-align: left;
     }
   }
+
+  @media (max-width){
+    iframe{
+      width: max-content;
+      height: max-content;
+    }
+    
+  }
