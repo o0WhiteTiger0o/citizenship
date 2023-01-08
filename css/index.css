@@ -64,7 +64,11 @@ body{
 
 }
 
-
+h1{
+  text-shadow: red 0 -5px;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 10rem;
+}
 
 a{
     text-decoration: none;
