@@ -193,6 +193,7 @@ button{
       text-align: center;
 
     }
+
   }
   
   @media screen and (max-width: 1000px) {
@@ -212,9 +213,11 @@ button{
       text-shadow: red 0 -1px;
       text-align: center;
     }
+
   }
 
   @media (max-width : 500px){
+
     iframe{
       width: max-content;
       height: max-content;
