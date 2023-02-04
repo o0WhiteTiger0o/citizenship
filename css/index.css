@@ -89,7 +89,7 @@ section{
     width: 80%;
     height: 100%;
     text-align: center;
-    padding-top: 10%;
+    padding-top: 2%;
     
 }
 
@@ -180,7 +180,9 @@ button{
   }
 
 
-
+button {
+  width: 500px;
+}
 @media screen and (max-width: 1000px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
