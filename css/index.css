@@ -149,6 +149,7 @@ button{
     background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
     /*background-color: #333;*/
     overflow: hidden;
+
   }
   
   /* Style the links inside the navigation bar */
@@ -183,6 +184,16 @@ button{
 button {
   width: 500px;
 }
+
+@media screen and (min-width: 1001px){
+  .topnav{
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+
+
 @media screen and (max-width: 1000px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
