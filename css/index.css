@@ -92,6 +92,11 @@ section{
     padding-top: 2%;
     
 }
+#indexPage{
+  margin:5%;
+  background-color: yellow;
+  border-radius: 25px;
+}
 
 #body_container{
     display:flex;
